@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exchange"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="144dp"
+        android:layout_height="104dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:contentDescription="@string/obrazek_kantor"
+        android:src="@drawable/kantor" />
+
+    <TextView
+        android:id="@+id/kantorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kantor_walut_v2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rounded_corner_background">
+
+        <LinearLayout
+            android:id="@+id/centeredLayout"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <EditText
+                android:id="@+id/amountInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:hint="@string/kwota"
+                android:inputType="numberDecimal"
+                android:minHeight="48dp"
+                android:importantForAutofill="no" />
+
+            <Spinner
+                android:id="@+id/sourceCurrencySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="10dp"
+                android:minHeight="48dp" />
+
+            <Spinner
+                android:id="@+id/targetCurrencySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="10dp"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/convertButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yellow_button_background"
+                android:minHeight="60dp"
+                android:text="@string/przewalutuj" />
+
+            <TextView
+                android:id="@+id/resultText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#090909"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="@string/opis_oznacze"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/currencyListView"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:layout_below="@id/relativeLayout"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginRight="10dp"
+        android:entries="@array/currencyList" />
+</RelativeLayout>

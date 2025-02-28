@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">Invest_app</string>
+    <string name="log_block_chain_valid">Blockchain valid? %1$b</string>
+    <string name="block_number" formatted="false">Blok #%d</string>
+    <string name="previous_hash">Poprzedni hash:</string>
+    <string name="block_amount">Kwota:</string>
+    <string name="block_hash">Hash:</string>
+    <string name="text_creating_block_chain">Proszę czekaj. Powstaje Blockchain…</string>
+    <string name="email">Email</string>
+    <string name="haslo">Hasło</string>
+    <string name="login">Login</string>
+    <string name="stworz_konto_zapisz_si">Stwórz konto, Zapisz się</string>
+    <string name="data_zaksi_gowania_operacji">Data zaksięgowania operacji:</string>
+    <string name="nazwakrypto">Nazwa</string>
+    <string name="_123456">123456</string>
+    <string name="symbol">Symbol</string>
+    <string name="zasady_korzystania_z_aplikacji_inwestycyjnej">Zasady Korzystania z Aplikacji Inwestycyjnej:</string>
+    <string name="invest_app">Invest App</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="image_register">image_register</string>
+    <string name="name_user">Nazwa użytkownika</string>
+    <string name="email_name">Email</string>
+    <string name="password_name">Hasło</string>
+    <string name="repeat_password">Powtórz hasło</string>
+    <string name="register">Zarejestruj</string>
+    <string name="to_login">Zarejestrowałeś się, Logowanie</string>
+    <string name="zero">0</string>
+    <string name="edit_photo">Edytuj zdjęcie</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="test_gmail_com">test@gmail.com</string>
+    <string name="zasady_korzystania_z_aplikacji">Zasady korzystania z aplikacji</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="aktualizuj">Aktualizuj</string>
+    <string name="wallet_user">Portfel użytkownika</string>
+    <string name="saldo">Saldo: 0 monet</string>
+    <string name="chart_user">Wykres operacji użytkownika</string>
+    <string name="value">Kwota</string>
+    <string name="safe">Szyfrowanie</string>
+    <string name="add">Wpłata</string>
+    <string name="zero_v2">0</string>
+    <string name="nazwa_v2">Nazwa</string>
+    <string name="test_gmail_com_v2">test@gmail.com</string>
+    <string name="operation">operation</string>
+    <string name="operacje_i_historia_finansowa">Operacje i historia finansowa</string>
+    <string name="biezace_kursy_kryptowalut">Bieżące kursy kryptowalut</string>
+    <string name="plany_inwestycyjne">Plany inwestycyjne</string>
+    <string name="plan">plan</string>
+    <string name="course_of_cryptocurrencies">course_of_cryptocurrencies</string>
+    <string name="exchange">exchange</string>
+    <string name="kantor_walut">Kantor walut</string>
+    <string name="wallet">wallet</string>
+    <string name="portfel_uzytkownika">Portfel użytkownika</string>
+    <string name="o_aplikacji">O aplikacji</string>
+    <string name="about_apk">about_apk</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="plany_inwestycyjne_v2">Plany Inwestycyjne</string>
+    <string name="wprowad_swoje_plany_inwestycyjne">Wprowadź swoje plany inwestycyjne</string>
+    <string name="zapisz_plan">Zapisz Plan</string>
+    <string name="kwota">Kwota</string>
+    <string name="kantor_walut_v2">Kantor walut</string>
+    <string name="obrazek_kantor">Obrazek-kantor</string>
+    <string name="przewalutuj">Przewalutuj</string>
+    <string name="opis_oznacze">Opis oznaczeń</string>
+    <string name="biezace_kursy_kryptowalut_v2">Bieżące kursy kryptowalut</string>
+    <string name="obrazek_krypto">Obrazek krypto</string>
+    <string name="szukaj">Szukaj</string>
+    <string name="o_aplikacji_v2">O aplikacji</string>
+    <string name="zamknij">Zamknij</string>
+    <string-array name="currencyList">
+        <item>AED - Dirham Zjednoczonych Emiratów Arabskich</item>
+        <item>AFN - Afgani afgański</item>
+        <item>ALL - Lek albański</item>
+        <item>AMD - Dram armeński</item>
+        <item>ANG - Gulden Antyli Holenderskich</item>
+        <item>AOA - Kwanza angolski</item>
+        <item>ARS - Peso argentyńskie</item>
+        <item>AUD - Dolar australijski</item>
+        <item>AWG - Florin arubański</item>
+        <item>AZN - Manat azerski</item>
+        <item>BAM - Konwertowalna marka bośniacka i hercegowińska</item>
+        <item>BBD - Dolar Barbadosu</item>
+        <item>BDT - Taka bengalska</item>
+        <item>BGN - Lew bułgarski</item>
+        <item>BHD - Dinar bahrajski</item>
+        <item>BIF - Frank burundyjski</item>
+        <item>BMD - Dolar bermudzki</item>
+        <item>BND - Dolar Brunei</item>
+        <item>BOB - Boliviano boliwijskie</item>
+        <item>BRL - Real brazylijski</item>
+        <item>BSD - Dolar bahamski</item>
+        <item>BTN - Ngultrum bhutański</item>
+        <item>BWP - Pula botswańska</item>
+        <item>BYN - Rubel białoruski</item>
+        <item>BZD - Dolar belizeński</item>
+        <item>CAD - Dolar kanadyjski</item>
+        <item>CDF - Frank kongijski</item>
+        <item>CHF - Frank szwajcarski</item>
+        <item>CLP - Peso chilijskie</item>
+        <item>CNY - Juan chiński</item>
+        <item>COP - Peso kolumbijskie</item>
+        <item>CRC - Koloń kostarykański</item>
+        <item>CUP - Peso kubańskie</item>
+        <item>CVE - Escudo Zielonego Przylądka</item>
+        <item>CZK - Korona czeska</item>
+        <item>DJF - Frank dżibutyjski</item>
+        <item>DKK - Korona duńska</item>
+        <item>DOP - Peso dominikańskie</item>
+        <item>DZD - Dinar algierski</item>
+        <item>EGP - Funt egipski</item>
+        <item>ERN - Nakfa erytrejska</item>
+        <item>ETB - Birr etiopski</item>
+        <item>EUR - Euro</item>
+        <item>FJD - Dolar fidżyjski</item>
+        <item>FKP - Funt Falklandów</item>
+        <item>FOK - Korona farerska</item>
+        <item>GBP - Funt brytyjski</item>
+        <item>GEL - Lari gruziński</item>
+        <item>GGP - Funt guernseyski</item>
+        <item>GHS - Cedi ghański</item>
+        <item>GIP - Funt gibraltarski</item>
+        <item>GMD - Dalasi gambijski</item>
+        <item>GNF - Frank gwinejski</item>
+        <item>GTQ - Quetzal gwatemalski</item>
+        <item>GYD - Dolar gujański</item>
+        <item>HKD - Dolar Hongkongu</item>
+        <item>HNL - Lempira honduraska</item>
+        <item>HRK - Kuna chorwacka</item>
+        <item>HTG - Gourde haitański</item>
+        <item>HUF - Forint węgierski</item>
+        <item>IDR - Rupia indonezyjska</item>
+        <item>ILS - Nowy szekel izraelski</item>
+        <item>IMP - Funt Wyspy Man</item>
+        <item>INR - Rupia indyjska</item>
+        <item>IQD - Dinar iracki</item>
+        <item>IRR - Rial irański</item>
+        <item>ISK - Korona islandzka</item>
+        <item>JEP - Funt jerseyjski</item>
+        <item>JMD - Dolar jamajski</item>
+        <item>JOD - Dinar jordański</item>
+        <item>JPY - Japoński Jen</item>
+        <item>KES - Szyling Kenijski</item>
+        <item>KGS - Som Kirgiski</item>
+        <item>KHR - Riel Kambodżański</item>
+        <item>KID - Dolar Kiribati</item>
+        <item>KMF - Frank Komoryjski</item>
+        <item>KRW - Won Południowokoreański</item>
+        <item>KWD - Dinar Kuwejcki</item>
+        <item>KYD - Dolar Kajmański</item>
+        <item>KZT - Tenge Kazachstańskie</item>
+        <item>LAK - Kip Laotański</item>
+        <item>LBP - Funt Libański</item>
+        <item>LKR - Rupia Sri Lanki</item>
+        <item>LRD - Dolar Liberii</item>
+        <item>LSL - Loti Lesotho</item>
+        <item>LYD - Dinar Libijski</item>
+        <item>MAD - Dirham Marokański</item>
+        <item>MDL - Lej Mołdawski</item>
+        <item>MGA - Ariary Madagaskaru</item>
+        <item>MKD - Denar Macedoński</item>
+        <item>MMK - Kyat Birmański</item>
+        <item>MNT - Tugrik Mongolski</item>
+        <item>MOP - Pataka Makauńska</item>
+        <item>MRU - Ugija Mauretańska</item>
+        <item>MUR - Rupia Mauritius</item>
+        <item>MVR - Rufiyaa Malediwska</item>
+        <item>MWK - Kwacha Malawijska</item>
+        <item>MXN - Peso Meksykańskie</item>
+        <item>MYR - Ringgit Malezyjski</item>
+        <item>MZN - Metical Mozambicki</item>
+        <item>NAD - Dolar Namibijski</item>
+        <item>NGN - Naira Nigerii</item>
+        <item>NIO - Córdoba Nikaraguańska</item>
+        <item>NOK - Korona Norweska</item>
+        <item>NPR - Rupia Nepalska</item>
+        <item>NZD - Dolar Nowozelandzki</item>
+        <item>OMR - Rial Omanu</item>
+        <item>PAB - Balboa Panamska</item>
+        <item>PEN - Nuevo Sol Peruwiański</item>
+        <item>PGK - Kina Papuańska</item>
+        <item>PHP - Peso Filipińskie</item>
+        <item>PKR - Rupia Pakistańska</item>
+        <item>PLN - Złoty Polski</item>
+        <item>PYG - Guarani Paragwajski</item>
+        <item>QAR - Riyal Katarski</item>
+        <item>RON - Lej Rumuński</item>
+        <item>RSD - Dinar Serbski</item>
+        <item>RUB - Rubel Rosyjski</item>
+        <item>RWF - Frank Rwandyjski</item>
+        <item>SAR - Riyal Saudyjski</item>
+        <item>SBD - Dolar Wysp Salomona</item>
+        <item>SCR - Rupia Seszelijska</item>
+        <item>SDG - Funt Sudanu</item>
+        <item>SEK - Korona Szwedzka</item>
+        <item>SGD - Dolar Singapurski</item>
+        <item>SHP - Funt Świętej Heleny</item>
+        <item>SLE - Leone Sierra Leone</item>
+        <item>SOS - Szyling Somalijski</item>
+        <item>SRD - Dolar Surinamski</item>
+        <item>SSP - Funt Sudanu Południowego</item>
+        <item>STN - Dobra Wysp Świętego Tomasza i Książęcej</item>
+        <item>SYP - Funt Syryjski</item>
+        <item>SZL - Lilangeni Suazi</item>
+        <item>THB - Baht Tajski</item>
+        <item>TJS - Somoni Tadżykistanu</item>
+        <item>TMT - Manat Turkmeński</item>
+        <item>TND - Dinar Tunezyjski</item>
+        <item>TOP - Paanga Tonga</item>
+        <item>TRY - Lira Turecka</item>
+        <item>TTD - Dolar Trynidadu i Tobago</item>
+        <item>TVD - Dolar Tuvalu</item>
+        <item>TWD - Nowy Dolar Tajwański</item>
+        <item>TZS - Szyling Tanzanijski</item>
+        <item>UAH - Hrywna Ukraińska</item>
+        <item>UGX - Szyling Ugandyjski</item>
+        <item>USD - Dolar Amerykański</item>
+        <item>UYU - Peso Urugwajskie</item>
+        <item>UZS - Som Uzbekistański</item>
+        <item>VES - Boliwar Wenezuelski</item>
+        <item>VND - Đồng Wietnamski</item>
+        <item>VUV - Vatu Vanuatu</item>
+        <item>WST - Tala Samońska</item>
+        <item>XAF - Frank CFA Środkowoafrykański</item>
+        <item>XCD - Dolar Wschodniokaraibski</item>
+        <item>XDR - Specjalne Prawo Ciągnienia</item>
+        <item>XOF - Frank CFA Zachodnioafrykański</item>
+        <item>XPF - Frank CFP</item>
+        <item>YER - Rial Jemeński</item>
+        <item>ZAR - Rand Południowoafrykański</item>
+        <item>ZMW - Kwacha Zambijska</item>
+        <item>ZWL - Dolar Zimbabweński</item>
+    </string-array>
+</resources>
